@@ -10,6 +10,7 @@ import SuperHeroes from './Components/SuperHeroes'
 import Parallal from './Components/Parallal'
 import DynamicParallal from './Components/DynamicParallal'
 import Dependent from './Components/Dependent'
+import Paginated from './Components/Paginated'
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => {
                         <Route path='/rq-parallal' element={<Parallal />} />
                         <Route path='/rq-dynamic-parallal' element={<DynamicParallal ids={[1, 3]} />} />
                         <Route path='/rq-dependent' element={<Dependent email='john@gmail.com' />} />
+                        <Route path='/rq-paginated' element={<Paginated />} />
                     </Routes>
                 </Router>
             </div>

@@ -20,6 +20,9 @@ const Header = () => {
                 <li>
                     <Link to='/rq-dependent'>Dependent</Link>
                 </li>
+                <li>
+                    <Link to='/rq-paginated'>Paginated</Link>
+                </li>
             </ul>
         </nav>
     )
