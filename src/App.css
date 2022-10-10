@@ -32,6 +32,19 @@ button {
   cursor: pointer;
 }
 
+input {
+  margin: 10px;
+  border: 1px solid #3ea6ff;
+  color: #3ea6ff;
+  border-radius: 25px;
+  padding: 8px 13px;
+  font-family: 'Caveat', sans-serif;
+}
+
+input:focus {
+  border: 1px solid #3ea6ff;
+}
+
 nav {
   height: 50px;
   display: flex;

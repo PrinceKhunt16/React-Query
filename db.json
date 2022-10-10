@@ -14,6 +14,21 @@
       "id": 3,
       "name": "Wonder Woman",
       "alterEgo": "Princess Diana"
+    },
+    {
+      "name": "Gentelman",
+      "alterEgo": "Amithabh Bachhan",
+      "id": 4
+    },
+    {
+      "name": "Sejan",
+      "alterEgo": "Belly Betsen",
+      "id": 5
+    },
+    {
+      "name": "Pickacho",
+      "alterEgo": "Pen denial",
+      "id": 6
     }
   ],
   "friends": [
@@ -39,7 +54,11 @@
   "channels": [
     {
       "id": "john",
-      "courses": ["react", "vue", "angular"]
+      "courses": [
+        "react",
+        "vue",
+        "angular"
+      ]
     }
   ],
   "colors": [
