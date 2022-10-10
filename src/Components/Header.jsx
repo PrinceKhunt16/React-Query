@@ -23,6 +23,9 @@ const Header = () => {
                 <li>
                     <Link to='/rq-paginated'>Paginated</Link>
                 </li>
+                <li>
+                    <Link to='/rq-infinite'>Infinite</Link>
+                </li>
             </ul>
         </nav>
     )

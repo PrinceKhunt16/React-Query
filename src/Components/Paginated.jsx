@@ -32,7 +32,7 @@ const Paginated = () => {
                     return (
                         <div key={color.id}>
                             <h2>
-                                {color.id}. {color.label}
+                                {color.id} {color.label}
                             </h2>
                         </div>
                     )
